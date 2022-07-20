@@ -1,6 +1,6 @@
 import React from 'react';
 import YeezyOfTheDay from './YeezyOfTheDay'
-import { Image, Row, Col, Container, Button } from 'react-bootstrap';
+import { Image, Row, Col, Container } from 'react-bootstrap';
 import useFetch from './useFetch';
 import HomeEN from './HomeEN';
 import HomeFR from './HomeFR';

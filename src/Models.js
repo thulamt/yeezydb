@@ -1,7 +1,4 @@
 import React from 'react';
-import icon from './assets/icon.png';
-import { Image, Row, Col, Container, Card} from 'react-bootstrap';
-import{useState} from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import ModelList from './ModelList';
 import useFetch from './useFetch';

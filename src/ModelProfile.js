@@ -11,9 +11,6 @@ export default function ModelProfile() {
   const {id} =useParams();
   const {data: models,isPending,error}=useFetch('https://warm-nimble-warrior.glitch.me/models/'+id);
   const {data:reviews, isPending:isPendingReviews, error:errorReviews}=useFetch('https://warm-nimble-warrior.glitch.me/reviews');
-  var reviewCount=0;
-  var likeCount=0;
-  var dislikeCount=0;
   const [showZoom, setShowZoom] = useState(false);
   const handleCloseZoom = () => setShowZoom(false);
   const handleShowZoom = () => setShowZoom(true);
@@ -52,10 +49,10 @@ export default function ModelProfile() {
     <Row>
       <Col>
       <div className="card">
-          <a onClick={handleShowZoom}>
+          <div onClick={handleShowZoom}>
             <p className="text-primary pt-2" style={{textAlign: "right", fontSize: "30px"}}><ZoomIn/></p>
-            <img className="card-img-top" src={require('./assets/'+models.image+'.jpg')} alt="Card image"/>
-          </a>
+            <img className="card-img-top" src={require('./assets/'+models.image+'.jpg')} alt="model"/>
+          </div>
           <div className="card-body">
             <p className="h3">{models.full}</p>
             <div className="row">
@@ -132,7 +129,6 @@ export default function ModelProfile() {
       </div>
       <Modal centered size="xl" aria-labelledby="contained-modal-title-vcenter" show={showZoom} onHide={handleCloseZoom}>
         <Modal.Header closeButton>
-          <h5 className="modal-title" id="zoomlabel"></h5>
         </Modal.Header>
         <Modal.Body>
           <img className="img-fluid " src={require('./assets/'+models.image+'.jpg')} style={{maxWidth: "100%", height: "auto"}} alt="zoom" />
@@ -152,16 +148,16 @@ export default function ModelProfile() {
               <p>Dislikes <HandThumbsDown></HandThumbsDown>:</p>
             </Col>
             <Col>
-              <p>{reviewCount=(reviews.filter(
+              <p>{(reviews.filter(
                 (review)=>
                 review.models.full===models.full
               )).length}</p>
-              <p>{likeCount=(reviews.filter(
+              <p>{(reviews.filter(
                 (review)=>
                 review.models.full===models.full 
                 && review.like
               )).length}</p>
-              <p>{dislikeCount=(reviews.filter(
+              <p>{(reviews.filter(
                 (review)=>
                 review.models.full===models.full
                 && review.dislike

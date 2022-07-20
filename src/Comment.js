@@ -1,5 +1,4 @@
 import React from 'react';
-import {Container } from 'react-bootstrap';
 import { HandThumbsUpFill, HandThumbsDownFill } from 'react-bootstrap-icons';
 import "bootstrap/dist/css/bootstrap.min.css";
 import useFetch from './useFetch';

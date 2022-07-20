@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import { Image, Navbar, Nav, Container, Modal, Button, Row, Col} from 'react-bootstrap';
+import { Image, Navbar, Nav, Container, Modal, Button} from 'react-bootstrap';
 import { Person, PersonFill } from 'react-bootstrap-icons';
 import{useState} from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";

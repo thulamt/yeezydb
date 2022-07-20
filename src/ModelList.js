@@ -9,7 +9,7 @@ const ModelList = ({models}) => {
             <div className="model-preview" >
               <Link to={`/models/${model.id}`} className="text-decoration-none">
                 <div className="card border-0" style={{width:"400px", height:"400px"}}>
-                  <img className="card-img-top" src={require('./assets/'+model.image+'.jpg')} style={{paddingTop: "20px"}} alt="Card image"/>
+                  <img className="card-img-top" src={require('./assets/'+model.image+'.jpg')} style={{paddingTop: "20px"}} alt="model"/>
                   <div className="card-body">
                     <h4 className="card-title text-center">{model.title}</h4>
                   </div>

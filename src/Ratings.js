@@ -1,8 +1,5 @@
 import React from 'react';
-import Comment from './Comment';
-import { Image, Row, Col, Container, Card} from 'react-bootstrap';
-import{useState} from 'react';
-import { HandThumbsUpFill, HandThumbsDownFill, HandThumbsUp,HandThumbsDown, ZoomIn} from 'react-bootstrap-icons';
+import { HandThumbsUpFill, HandThumbsDownFill} from 'react-bootstrap-icons';
 import "bootstrap/dist/css/bootstrap.min.css";
 import useFetch from './useFetch';
 import {Link,useParams} from 'react-router-dom';
