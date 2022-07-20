@@ -5,9 +5,9 @@ import{useState} from 'react';
 import { HandThumbsUp,HandThumbsDown, ZoomIn} from 'react-bootstrap-icons';
 import "bootstrap/dist/css/bootstrap.min.css";
 import useFetch from './useFetch';
-import {useParams} from "react-router-dom";
+import {useParams, useHistory} from "react-router-dom";
 
-export default function ModelProfile() {
+export default function ModelProfile({firstName, lastName, userID, login}) {
   const {id} =useParams();
   const {data: models,isPending,error}=useFetch('https://warm-nimble-warrior.glitch.me/models/'+id);
   const {data:reviews, isPending:isPendingReviews, error:errorReviews}=useFetch('https://warm-nimble-warrior.glitch.me/reviews');
@@ -24,18 +24,30 @@ export default function ModelProfile() {
   const[anon,setAnon]=useState(false);
   const[review,setReview]=useState('');
   const[reviewPending,setReviewPending]=useState(false);
+  const history=useHistory();
 
   const handleSubmit=(e)=>{
-    const newReview={like,dislike,anon,review,models};
+    e.preventDefault();
+    const newReview={like,dislike,anon,firstName, lastName,userID,review,models};
     setReviewPending(true);
-    fetch('https://warm-nimble-warrior.glitch.me/reviews',{
+    if(!anon&&!login){
+      console.log("error: need to signin or post anon");
+      setReviewPending(false);
+    }else{
+      fetch('https://warm-nimble-warrior.glitch.me/reviews',{
       method:'POST',
       headers:{"Content-Type":"application/json"},
       body: JSON.stringify(newReview)
     }).then(()=>{
       console.log("new review added");
       setReviewPending(false);
-    })
+      if(login){
+        history.replace('/ratings/'+userID);
+      }else{
+        history.replace('/models/');
+      }
+    })}
+    
   }
   return (
     <div className="model-profile">

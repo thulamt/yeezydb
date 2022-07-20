@@ -16,6 +16,7 @@ export default function Comment({models}) {
                 <div className="row">
                   <div className="col">
                     {review.anon&& <p className="h6">Anonymous</p>}
+                    {!review.anon&& <p className="h6">{review.firstName+" "+review.lastName}</p>}
                   </div>
                   <div className="col">
                     
