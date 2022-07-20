@@ -14,7 +14,7 @@ export default function Ratings() {
     {isPendingUser &&<div>Loading...</div>}
     {errorReviews &&<div>{errorReviews}</div>}
     {isPendingReviews &&<div>Loading...</div>}
-    {users && reviews && reviews.filter((check)=>check.userID==id).map((review)=>(
+    {users && reviews && reviews.filter((check)=>Number(check.userID)===Number(id)).map((review)=>(
     <div className="container-fluid pt-5" key={review.id}>
     <Link to={`/models/${review.models.id}`} className="text-decoration-none">
       <div className="container p-4 my-4 border" style={{borderRadius: "5px"}}>
