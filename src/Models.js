@@ -8,6 +8,7 @@ export default function Models() {
   
   return (
     <div className="container pt-5 my-4">
+      <p className="h1">YEEZY Shoe Models</p>
       {error &&<div>{error}</div>}
       {isPending &&<div>Loading...</div>}
       {models && 

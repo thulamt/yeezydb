@@ -1,4 +1,5 @@
 import React from 'react';
+import { Row, Col,} from 'react-bootstrap';
 import { HandThumbsUpFill, HandThumbsDownFill} from 'react-bootstrap-icons';
 import "bootstrap/dist/css/bootstrap.min.css";
 import useFetch from './useFetch';
@@ -9,13 +10,16 @@ export default function Ratings() {
   const{data:users,isPendingUser,errorUser}=useFetch('https://warm-nimble-warrior.glitch.me/users/'+id);
   const {data:reviews, isPending:isPendingReviews, error:errorReviews}=useFetch('https://warm-nimble-warrior.glitch.me/reviews');
   return (
-    <div className="user-ratings">
+    <div className="user-ratings container pt-5 my-4">
+      <p className="h1">User Ratings</p>
+      <Row>
       {errorUser &&<div>{errorUser}</div>}
     {isPendingUser &&<div>Loading...</div>}
     {errorReviews &&<div>{errorReviews}</div>}
     {isPendingReviews &&<div>Loading...</div>}
     {users && reviews && reviews.filter((check)=>Number(check.userID)===Number(id)).map((review)=>(
-    <div className="container-fluid pt-5" key={review.id}>
+    <Col xs="4" key={review.id}>
+    <div className="container pt-1" >
     <Link to={`/models/${review.models.id}`} className="text-decoration-none">
       <div className="container p-4 my-4 border" style={{borderRadius: "5px"}}>
         <div className="row">
@@ -31,7 +35,9 @@ export default function Ratings() {
         </div>               
       </div>
     </Link>
-  </div>))}
+  </div>
+  </Col>))}
+  </Row>
   </div>
   );
 }
