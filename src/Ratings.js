@@ -9,8 +9,8 @@ import {Link,useParams} from 'react-router-dom';
 
 export default function Ratings() {
   const {id} =useParams();
-  const{data:users,isPendingUser,errorUser}=useFetch('http://localhost:8000/users/'+id);
-  const {data:reviews, isPending:isPendingReviews, error:errorReviews}=useFetch('http://localhost:8000/reviews');
+  const{data:users,isPendingUser,errorUser}=useFetch('https://warm-nimble-warrior.glitch.me/users/'+id);
+  const {data:reviews, isPending:isPendingReviews, error:errorReviews}=useFetch('https://warm-nimble-warrior.glitch.me/reviews');
   return (
     <div className="user-ratings">
       {errorUser &&<div>{errorUser}</div>}

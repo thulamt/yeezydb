@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import useFetch from './useFetch';
 
 export default function Comment({models}) {
-  const {data: reviews,isPending,error}=useFetch('http://localhost:8000/reviews');
+  const {data: reviews,isPending,error}=useFetch('https://warm-nimble-warrior.glitch.me/reviews');
   return (
       <div className="container pt-4">
         {error &&<div>{error}</div>}

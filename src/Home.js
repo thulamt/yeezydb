@@ -8,7 +8,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { useState, useEffect } from 'react';
 
 export default function Home() {
-  const {data: models,isPending,error}=useFetch('http://localhost:8000/models');
+  const {data: models,isPending,error}=useFetch('https://warm-nimble-warrior.glitch.me/models');
   const yeezyOfTheDayIndex=Math.floor(Math.random()*5);//models.length); broken atm due to taking time to fetch data on models, fix later
   const storedLangValue = (localStorage.getItem('lang')=== 'true');
   const [showLang, setShowLang] = useState(

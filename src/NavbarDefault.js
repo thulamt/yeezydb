@@ -8,7 +8,7 @@ import useFetch from './useFetch';
 
 export default function NavbarDefault() {
   var validation;
-  const {data: users,isPending,error}=useFetch('http://localhost:8000/users');
+  const {data: users,isPending,error}=useFetch('https://warm-nimble-warrior.glitch.me/users');
   const [showSignIn, setShowSignIn] = useState(false);
   const handleCloseSignIn = () => setShowSignIn(false);
   const handleShowSignIn = () => setShowSignIn(true);
@@ -56,7 +56,7 @@ export default function NavbarDefault() {
     e.preventDefault();
     const user={firstName,lastName,email,password, passwordConfirm};
     setSignupPending(true);
-    fetch('http://localhost:8000/users',{
+    fetch('https://warm-nimble-warrior.glitch.me/users',{
       method:'POST',
       headers:{"Content-Type":"application/json"},
       body: JSON.stringify(user)

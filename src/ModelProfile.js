@@ -9,8 +9,8 @@ import {useParams} from "react-router-dom";
 
 export default function ModelProfile() {
   const {id} =useParams();
-  const {data: models,isPending,error}=useFetch('http://localhost:8000/models/'+id);
-  const {data:reviews, isPending:isPendingReviews, error:errorReviews}=useFetch('http://localhost:8000/reviews');
+  const {data: models,isPending,error}=useFetch('https://warm-nimble-warrior.glitch.me/models/'+id);
+  const {data:reviews, isPending:isPendingReviews, error:errorReviews}=useFetch('https://warm-nimble-warrior.glitch.me/reviews');
   var reviewCount=0;
   var likeCount=0;
   var dislikeCount=0;
@@ -31,7 +31,7 @@ export default function ModelProfile() {
   const handleSubmit=(e)=>{
     const newReview={like,dislike,anon,review,models};
     setReviewPending(true);
-    fetch('http://localhost:8000/reviews',{
+    fetch('https://warm-nimble-warrior.glitch.me/reviews',{
       method:'POST',
       headers:{"Content-Type":"application/json"},
       body: JSON.stringify(newReview)

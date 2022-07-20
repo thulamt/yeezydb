@@ -7,7 +7,7 @@ import ModelList from './ModelList';
 import useFetch from './useFetch';
 
 export default function Models() {
-  const {data: models,isPending,error}=useFetch('http://localhost:8000/models');
+  const {data: models,isPending,error}=useFetch('https://warm-nimble-warrior.glitch.me/models');
   
   return (
     <div className="container pt-5 my-4">
