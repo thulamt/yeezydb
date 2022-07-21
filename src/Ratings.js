@@ -18,6 +18,10 @@ export default function Ratings({login}) {
     {errorReviews &&<div>{errorReviews}</div>}
     {isPendingReviews &&<div>Loading...</div>}
     {!login && <div>No reviews available. Please sign in to a valid account.</div>}
+    {login && users && reviews && reviews.filter((check)=>Number(check.userID)===Number(id)).length===0 && 
+    <div><h6>You haven't rated any Yeezys yet.</h6>
+    <p><Link to="/models">Browse shoes</Link> and start reviewing!</p></div>
+    }
     {login && users && reviews && reviews.filter((check)=>Number(check.userID)===Number(id)).map((review)=>(
     <Col xs="4" key={review.id}>
     <div className="container pt-1" >

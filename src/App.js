@@ -42,6 +42,15 @@ function App() {
         /\S+@\S+\.\S+/
       );
   };
+
+  // password visibility
+  const [passwordShown, setPasswordSHown] = useState(false);
+
+  // This function is called when the checkbox is checked or unchecked
+  const togglePassword = () => {
+    setPasswordSHown((passwordShown) => !passwordShown);
+  };
+  
   //Modals
   const [showSignIn, setShowSignIn] = useState(false);
   const handleCloseSignIn = () => {
@@ -201,8 +210,17 @@ function App() {
               required
               value={password}
               onChange={(e)=>{setPassword(e.target.value)}}
-              id="password" type="text" className="form-control" placeholder="******"/>
+              id="password" type={passwordShown ? "text" : "password"} className="form-control" placeholder="******"/>
           </div>
+          <div className="checkbox-container">
+          <input
+                id="checkbox"
+                type="checkbox"
+                checked={passwordShown}
+                onChange={togglePassword}
+              />
+              <label htmlFor="checkbox">Show password</label>
+        </div>
           <div className="d-grid gap-2 col-6 mx-auto">
           {!loginPending&&<><button type="submit" className="btn btn-primary">Sign In</button></>}
             {loginPending&&<><button disabled type="submit" className="btn btn-primary">Signing In...</button></>}
@@ -250,15 +268,24 @@ function App() {
               required
               value={password}
               onChange={(e)=>{setPassword(e.target.value)}}
-              id="password" type="text" className="form-control" placeholder="******"/>
+              id="password" type={passwordShown ? "text" : "password"} className="form-control" placeholder="******"/>
           </div>
+          <div className="checkbox-container">
+          <input
+                id="checkbox"
+                type="checkbox"
+                checked={passwordShown}
+                onChange={togglePassword}
+              />
+              <label htmlFor="checkbox">Show password</label>
+        </div>
           <div className="input-group mb-3">
             <span className="input-group-text">Confirm Password:</span>
             <input  
               required
               value={passwordConfirm}
               onChange={(e)=>{setPasswordConfirm(e.target.value)}} 
-              type="text" className="form-control" placeholder="******"/>
+              type="password" className="form-control" placeholder="******"/>
           </div>
         </Modal.Body>
         <Modal.Footer>
