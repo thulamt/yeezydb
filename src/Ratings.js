@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import useFetch from './useFetch';
 import {Link,useParams} from 'react-router-dom';
 
-export default function Ratings() {
+export default function Ratings({login}) {
   const {id} =useParams();
   const{data:users,isPendingUser,errorUser}=useFetch('https://warm-nimble-warrior.glitch.me/users/'+id);
   const {data:reviews, isPending:isPendingReviews, error:errorReviews}=useFetch('https://warm-nimble-warrior.glitch.me/reviews');
@@ -17,7 +17,8 @@ export default function Ratings() {
     {isPendingUser &&<div>Loading...</div>}
     {errorReviews &&<div>{errorReviews}</div>}
     {isPendingReviews &&<div>Loading...</div>}
-    {users && reviews && reviews.filter((check)=>Number(check.userID)===Number(id)).map((review)=>(
+    {!login && <div>No reviews available. Please sign in to a valid account.</div>}
+    {login && users && reviews && reviews.filter((check)=>Number(check.userID)===Number(id)).map((review)=>(
     <Col xs="4" key={review.id}>
     <div className="container pt-1" >
     <Link to={`/models/${review.models.id}`} className="text-decoration-none">

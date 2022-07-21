@@ -8,6 +8,8 @@ import Home from './Home'
 import Models from './Models'
 import ModelProfile from './ModelProfile'
 import Ratings from './Ratings'
+import NotFound from './NotFound'
+import FAQ from './Faq'
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -55,7 +57,10 @@ function App() {
   const handleCloseSignOut = () => setShowSignOut(false);
   const handleShowSignOut = () => setShowSignOut(true);
   const[signoutPending,setSignoutPending]=useState(false);
-  
+
+  const [showLoginConfirm, setShowLoginConfirm] = useState(false);
+  const handleCloseLoginConfirm = () => setShowLoginConfirm(false);
+
   const[signupPending,setSignupPending]=useState(false);
   const[loginPending,setLoginPending]=useState(false);
 
@@ -73,6 +78,7 @@ function App() {
       setSignupPending(false);
       setShowCreateAccount(false);
       setLogin(true);
+      setShowLoginConfirm(true);
     })
     }
 
@@ -89,6 +95,7 @@ function App() {
       setLoginPending(false);
       setShowSignIn(false);
       setLogin(true);
+      setShowLoginConfirm(true);
     }else{
       console.log("user failed signin");
       setUserID(-1);
@@ -129,6 +136,7 @@ function App() {
           <Nav className="me-auto">
           <div className="nav-link"><Link id="RouterNavLink" style={{color: "blue", textDecoration: "none", display: "flex", justifyContent: "center"}} to="/">Home</Link></div>
           <div className="nav-link"><Link id="RouterNavLink" style={{color: "blue", textDecoration: "none", display: "flex", justifyContent: "center"}} to="/models">Browse Shoes</Link></div>
+          <div className="nav-link"><Link id="RouterNavLink" style={{color: "blue", textDecoration: "none", display: "flex", justifyContent: "center"}} to="/faq">FAQ</Link></div>
           {!login && <>
           <div className="nav-link" onClick={handleShowSignIn} style={{color: "blue", textDecoration: "none", display: "flex", justifyContent: "center"}}>My Ratings</div>
           <div className="nav-link" onClick={handleShowSignIn} style={{color: "blue", textDecoration: "none", display: "flex", justifyContent: "center"}}><Person size={25}/></div></>}
@@ -237,6 +245,7 @@ function App() {
         </Modal.Header>
         <Modal.Body>
           <p>Would you like to sign out of your account?</p>
+          <p>Once signed out, you will be redirected to the home page.</p>
         </Modal.Body>
         <Modal.Footer>
         <form onSubmit={handleSignOut}>
@@ -247,6 +256,19 @@ function App() {
             <button disabled variant="secondary" onClick={handleCloseSignOut}>Close</button></>}
           </div>
         </form>
+        </Modal.Footer>
+      </Modal>
+
+      <Modal show={showLoginConfirm} onHide={handleCloseLoginConfirm}>
+        <Modal.Header closeButton>
+          <h5 className="modal-title" id="login-confirm">Welcome {firstName} {lastName}!</h5>
+        </Modal.Header>
+        <Modal.Body>
+          <p>You have successfully signed in.</p>
+          <p>You can now view all reviews posted on your in "My Ratings".</p>
+        </Modal.Body>
+        <Modal.Footer>
+            <Button variant="secondary" onClick={handleCloseLoginConfirm}>Close</Button>
         </Modal.Footer>
       </Modal>
       </div>)}
@@ -262,7 +284,13 @@ function App() {
         <ModelProfile firstName={firstName} lastName={lastName} userID={userID} login={login}/>
       </Route>
       <Route path="/ratings/:id">
-        <Ratings />
+        <Ratings login = {login}/>
+      </Route>
+      <Route path="/faq">
+        <FAQ/>
+      </Route>
+      <Route path="*">
+        <NotFound/>
       </Route>
     </Switch>
     </div>
