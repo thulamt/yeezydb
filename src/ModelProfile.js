@@ -1,5 +1,6 @@
 import React from 'react';
 import Comment from './Comment';
+import RatingRatio from './RatingRatio';
 import { Row, Col, Container, Modal, Card} from 'react-bootstrap';
 import{useState} from 'react';
 import { HandThumbsUp,HandThumbsDown, ZoomIn} from 'react-bootstrap-icons';
@@ -159,26 +160,40 @@ export default function ModelProfile({firstName, lastName, userID, login}) {
           <Row>
             <Col>
               <p>Reviews:</p>
-              <p>Likes <HandThumbsUp></HandThumbsUp>:</p>
-              <p>Dislikes <HandThumbsDown></HandThumbsDown>:</p>
+              <Row>
+              <Col><p>Likes <HandThumbsUp></HandThumbsUp>:</p></Col>
+              <Col><p>{(reviews.filter(
+                (review)=>
+                review.models.full===models.full 
+                && review.like
+              )).length}</p></Col>
+              </Row>
             </Col>
             <Col>
               <p>{(reviews.filter(
                 (review)=>
                 review.models.full===models.full
               )).length}</p>
-              <p>{(reviews.filter(
-                (review)=>
-                review.models.full===models.full 
-                && review.like
-              )).length}</p>
-              <p>{(reviews.filter(
+              <Row>
+              <Col><p>Dislikes <HandThumbsDown></HandThumbsDown>:</p></Col>
+              <Col><p>{(reviews.filter(
                 (review)=>
                 review.models.full===models.full
                 && review.dislike
-              )).length}</p>
+              )).length}</p></Col>
+              </Row>
             </Col>
           </Row>
+          <RatingRatio like={(reviews.filter(
+                (review)=>
+                review.models.full===models.full 
+                && review.like
+              )).length}
+              dislike={(reviews.filter(
+                (review)=>
+                review.models.full===models.full
+                && review.dislike
+              )).length}></RatingRatio>
         </Modal.Body>
         <Modal.Footer>
         </Modal.Footer>
