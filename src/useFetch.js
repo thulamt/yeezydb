@@ -1,3 +1,4 @@
+//Credits to NetNinja
 import { useState, useEffect } from 'react';
 
 const useFetch = (url) => {

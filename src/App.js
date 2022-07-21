@@ -14,6 +14,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   var validation;
+  var emailUnique;
   const {data: users,isPending,error}=useFetch('https://warm-nimble-warrior.glitch.me/users');
   const[firstName,setFirstName]=useState('');
   const[lastName,setLastName]=useState('');
@@ -34,6 +35,13 @@ function App() {
     setUserID(-1);
   };
 
+  const validateEmail = (email) => {
+    return String(email)
+      .toLowerCase()
+      .match(
+        /\S+@\S+\.\S+/
+      );
+  };
   //Modals
   const [showSignIn, setShowSignIn] = useState(false);
   const handleCloseSignIn = () => {
@@ -65,21 +73,40 @@ function App() {
   const[loginPending,setLoginPending]=useState(false);
 
   const handleSignup=(e)=>{
-    setUserID(users.length+1);
     e.preventDefault();
     const user={firstName,lastName,email,password, passwordConfirm};
     setSignupPending(true);
+    emailUnique=users.filter((user)=>user.email===email);
+    if (!validateEmail(email)){
+      alert("Error: Email is not in the correct format.");
+      setSignupPending(false);
+    }else if (password!==passwordConfirm){
+      alert("Error: Passwords are not the same. Please try again.");
+      setSignupPending(false);
+    }else if (password.length>32 ||password.length<8){
+      alert("Error: Password length must be between 8 and 32 characters.");
+      setSignupPending(false);
+    }else if (firstName.length>50 ||lastName.length>50||email.length>50){
+      alert("Error: You entered a field with too many characters, try again.");
+      setSignupPending(false);
+    }else if (emailUnique.length>0){
+      alert("Error: Email already used by another account, try another.");
+      setSignupPending(false);
+    }
+
+    else{
     fetch('https://warm-nimble-warrior.glitch.me/users',{
       method:'POST',
       headers:{"Content-Type":"application/json"},
       body: JSON.stringify(user)
     }).then(()=>{
+      setUserID(users.length+1);
       console.log("new user added");
       setSignupPending(false);
       setShowCreateAccount(false);
       setLogin(true);
       setShowLoginConfirm(true);
-    })
+    })}
     }
 
   const handleLogin=(e)=>{
@@ -96,14 +123,20 @@ function App() {
       setShowSignIn(false);
       setLogin(true);
       setShowLoginConfirm(true);
-    }else{
-      console.log("user failed signin");
+    }else if (!validateEmail(email)){
+      alert("Error: Email is not in the correct format.");
       setUserID(-1);
       setFirstName('');
       setLastName('');
       setPasswordConfirm('');
       setLoginPending(false);
-      //throw error
+    }else{
+      alert("Error: Email and or password do not match any available account.");
+      setUserID(-1);
+      setFirstName('');
+      setLastName('');
+      setPasswordConfirm('');
+      setLoginPending(false);
     }
   }
 

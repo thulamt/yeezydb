@@ -31,7 +31,10 @@ export default function ModelProfile({firstName, lastName, userID, login}) {
     const newReview={like,dislike,anon,firstName, lastName,userID,review,models};
     setReviewPending(true);
     if(!anon&&!login){
-      console.log("error: need to signin or post anon");
+      alert("Error: need to sign in or post anonymously.");
+      setReviewPending(false);
+    }else if(review.length>100){
+      alert("Error: Review must be less than 100 characters.");
       setReviewPending(false);
     }else{
       fetch('https://warm-nimble-warrior.glitch.me/reviews',{
