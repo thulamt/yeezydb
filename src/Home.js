@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Home() {
   const {data: models,isPending,error}=useFetch('https://warm-nimble-warrior.glitch.me/models');
-  const yeezyOfTheDayIndex=Math.floor(Math.random()*5);//models.length); broken atm due to taking time to fetch data on models, fix later
+  const yeezyOfTheDayIndex=Math.floor(Math.random()*23);//models.length); broken atm due to taking time to fetch data on models, fix later
   
   return (
     

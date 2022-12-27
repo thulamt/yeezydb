@@ -6,7 +6,7 @@ const HomeEN = () => {
     return (  
         <div className="home-en">
             <Row>
-              <h3 className="pt-5">All Yeezy shoe models in your hands</h3>
+              <h3 className="pt-5">All adidas Yeezy shoe models in your hands</h3>
               <h4 className="pt-3 pb-3">Review the archive and legacy of YEEZY!</h4>
             </Row>
             <Link to="/models">

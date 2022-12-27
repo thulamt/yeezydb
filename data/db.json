@@ -1,6 +1,17 @@
 {
   "models": [
     {
+      "full": "Yeezy Boost 750",
+      "colorway": "OG Light Brown",
+      "title": "750",
+      "image": "750_lightbrown",
+      "retailPriceUSD": "350",
+      "sizing": "True to Size",
+      "ebayPurchaseLink": "https://www.ebay.ca/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313&_nkw=yeezy+750&_sacat=0",
+      "body": "Searching for creative freedom, Kanye West left Nike for adidas in late 2013. The minute the adidas x Kanye West partnership was announced, anticipation began to build. In true Yeezy fashion, Kanye first wore the 750 Yeezy Boost to the Grammy`s. The first colorway of the adidas Yeezy Boost 750, which is technically Brown/Carbon White/Light Brown but most commonly referred to as grey, released over NBA All-Star Weekend that took place in New York City that year. To make things fair and safe for customers, adidas launched an app to handle reservations. If you were lucky enough to get through on the app you were able to pick up your Yeezy Boosts from a nearby retailer. Kanye and adidas went above and beyond with extra personnel to make sure that every person who obtained a pair was able to pick up their pair safely. The Yeezy 750 is a bold design featuring a high cut and zippered ankle, and because of it, many sneakerheads scoffed at the shoe. The design is one of the first shoes from adidas to feature almost no visual branding. Even the Three Stripes are tucked away underneath the midfoot strap. To help launch the shoe, Kanye West and adidas held a fashion show in NYC for Kanye’s Yeezy Season 1 and live streamed the show to 42 movie theaters across the globe. To make the launch even more special for Yeezy fans, Kanye West surprised some of those who purchased the adidas Yeezy Boost by handing them their new Yeezy sneakers in person.\n-StockX",
+      "id": 0
+    },
+    {
       "full": "Yeezy Boost 350 V1",
       "colorway": "Turtledove",
       "title": "350 V1",
@@ -9,7 +20,18 @@
       "sizing": "Half Size Up",
       "ebayPurchaseLink": "https://www.ebay.ca/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313&_nkw=yeezy+350+v1&_sacat=0",
       "body": "After Kanye West broke it off with Nike, he took his incredible sneaker designs to adidas. Shortly after, the Yeezy 350 Boost V1 launched. West wanted to create a shoe that could be used both in sports and in social settings.\nTo accomplish this, he created a silhouette that was unlike anything else. It took the low-top fashion industry by storm. Its initial release was in Turtle Dove.\n-StockX",
-      "id": 0
+      "id": 1
+    },
+    {
+      "full": "Yeezy Boost 950",
+      "colorway": "Pirate Black",
+      "title": "950",
+      "image": "950_pirateblack",
+      "retailPriceUSD": "585",
+      "sizing": "Half Size Up",
+      "ebayPurchaseLink": "https://www.ebay.ca/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313&_nkw=yeezy+950&_sacat=0",
+      "body": "The adidas Yeezy 950 Boot is a triple fusion of three classic silhouettes. Unveiled in October 2015, this 'Pirate' edition mirrors a combat and duck boot with a nylon and textile upper and weatherized laces. A rear pull tab aids entrance, while a debossed tongue label authenticates the look. Elevated by a high-profile midsole, the aggressive, hiking-inspired tread designates the style for sartorial performance.\n-GOAT",
+      "id": 2
     },
     {
       "full": "Yeezy Boost 350 V2",
@@ -20,7 +42,18 @@
       "sizing": "Half Size Up",
       "ebayPurchaseLink": "https://www.ebay.ca/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313&_nkw=yeezy+350+v2&_sacat=0",
       "body": "The adidas Yeezy 350 Boost V2 takes the silhouette that Kanye West made famous for adidas Originals and gives it new life. The Yeezy Boost releases have been some of the most notable driving forces in the resurgence of adidas' popularity around the world. The low top Yeezy Boost 350 features a full length Boost cushioning system and a high end feel that has made it the go-to sneaker for everyone from celebrities like Kim Kardashian-West, Jay-Z, 2 Chainz and Future, as well as for athletes like Nick \"Swaggy P\" Young, Andrew Wiggins, Lewis Hamilton and anyone else who can get their feet in a pair. The Yeezy Boost 350 V2 adds a bold twist to Kanye's design with a bright orange (officially Solar Red) stripe across the Steel Grey/Beluga zebra-striped upper with the text YZY SPLY.\nThe Steeple Gray/Beluga/Solar Red adidas Yeezy Boost 350 V2 is the first of the 2nd version colorways that release in 2016.\n-StockX",
-      "id": 1
+      "id": 3
+    },
+    {
+      "full": "Yeezy Powerphase Calabasas",
+      "colorway": "Core White",
+      "title": "Powerphase",
+      "image": "calabasas_white",
+      "retailPriceUSD": "120",
+      "sizing": "True to Size",
+      "ebayPurchaseLink": "https://www.ebay.ca/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313&_nkw=yeezy+powerphase&_sacat=0",
+      "body": "The adidas Yeezy Powerphase Calabasas Core White was part of a collaboration between rapper Kanye West and adidas. It draws its inspiration from the 80s with an Off-White buttery leather design throughout. The Yeezy Powerphase features a premium off-white leather upper with perforated 3-Stripes, gold foil Calabasas branding on the lateral side, and an adidas wordmark on the eye stay logo window. The sneaker arrives in an all white colorway with a matching rubber sole and matching laces. The adidas Yeezy Powerphase Calabasas Core White was originally released on the 28th of March 2017 for an initial retail price of $120.\n-StockX",
+      "id": 4
     },
     {
       "full": "Yeezy Boost 700 V1",
@@ -31,7 +64,40 @@
       "sizing": "True to Size",
       "ebayPurchaseLink": "https://www.ebay.ca/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313&_nkw=yeezy+700+v1&_sacat=0",
       "body": "The Yeezy 700 Boost Wave Runner is the shoe that led Yeezy's pivot from a sleek, minimal aesthetic to a chunky, 90s inspired one. This was the gateway sneaker between knit runners like the 350 and the grungy skate look of the 550. The Yeezy 700 Wave Runner features a grey mesh and leather upper with black suede overlays and teal mesh underlays. At the base, a thick Boost sole and contrasting hits of orange complete the design.\nThe adidas Yeezy Boost 700 Wave Runner originally released in November of 2017, and most recently re-released in March of 2022 for a retail price of $300.\n-StockX",
-      "id": 2
+      "id": 5
+    },
+    {
+      "full": "Yeezy 500",
+      "colorway": "Blush",
+      "title": "500",
+      "image": "500_blush",
+      "retailPriceUSD": "200",
+      "sizing": "Half Size Up",
+      "ebayPurchaseLink": "https://www.ebay.ca/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313&_nkw=yeezy+500&_sacat=0",
+      "body": "With a pale pink monochromatic palette, the adidas Yeezy 500 Blush features a hiking-inspired suede and mesh construction are durable enough for the trails and also versatile enough for daily wear. From there, a sculptural adiPRENE sole adds the finishing touch. The adidas Yeezy 500 Blush debuted in February of 2018, and restocked in January of 2022 for a retail price of $200.\n-StockX",
+      "id": 6
+    },
+    {
+      "full": "Yeezy Boost 700 V2",
+      "colorway": "Static",
+      "title": "700 V2",
+      "image": "700v2_static",
+      "retailPriceUSD": "300",
+      "sizing": "True to Size",
+      "ebayPurchaseLink": "https://www.ebay.ca/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313&_nkw=yeezy+700+v2&_sacat=0",
+      "body": "Ignore the static, adidas and Kanye are teaming up to release the adidas Yeezy 700 V2 Static. This Yeezy 700 comes with a grey upper with white accents, white midsole, and a black sole. These sneakers released in December 2018 and retailed for $300. The 700`s have been one of the hottest adidas silhouette this year so place a Bid on these today.\n-StockX",
+      "id": 7
+    },
+    {
+      "full": "Yeezy DSRT BT",
+      "colorway": "Rock",
+      "title": "DSRT BT",
+      "image": "dsrtbt_rock",
+      "retailPriceUSD": "200",
+      "sizing": "Full Size Up",
+      "ebayPurchaseLink": "https://www.ebay.ca/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313&_nkw=yeezy+dsrt+bt&_sacat=0",
+      "body": "The adidas Yeezy Desert Boot Rock features a beige mesh upper with tonal nubuck and suede overlays. From there, a matching grooved sole provides traction and stability. The adidas Yeezy Desert Boot Rock released in April of 2019 and retailed for $200.\n-StockX",
+      "id": 8
     },
     {
       "full": "Yeezy Slide",
@@ -42,7 +108,62 @@
       "sizing": "Full Size Up",
       "ebayPurchaseLink": "https://www.ebay.ca/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313&_nkw=yeezy+slide&_sacat=0",
       "body": "The Yeezy Slide Bone features a triple-Bone EVA foam upper with the stark white color of Bone covering the entirety of the silhouette in one monochromatic hue that goes from the single, wide sandal strap down to the unique sole of the shoe. From there, the deep footbed uses the same plush foam EVA for comfort, and the outsole features a toothy construction that is intended to make the sandals rugged enough for different weather conditions, with the look finishing up using a small adidas logo on the heel to complete the design.\nThe Yeezy Slide Bone released in December of 2019 and retailed for $55.\n-StockX",
-      "id": 3
+      "id": 9
+    },
+    {
+      "full": "Yeezy Boost 380",
+      "colorway": "Alien",
+      "title": "380",
+      "image": "380_alien",
+      "retailPriceUSD": "230",
+      "sizing": "Half Size Up",
+      "ebayPurchaseLink": "https://www.ebay.ca/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313&_nkw=yeezy+380&_sacat=0",
+      "body": "Yeezy has introduced a new silhouette to their product line with the adidas Yeezy Boost 380 Alien, now available on StockX. This model was originally known to be the Yeezy Boost 350 V3, but upon release it was given its own name. This 380 Alien features a never before seen Primeknit pattern on its upper and lacks the traditional lateral side strip. An upgraded thicker Boost midsole and engineered outsole grip complete the design. These sneakers released in November of 2019 and retailed for $230.\n-StockX",
+      "id": 10
+    },
+    {
+      "full": "Yeezy 500 High",
+      "colorway": "Slate",
+      "title": "500 High",
+      "image": "500high_slate",
+      "retailPriceUSD": "220",
+      "sizing": "Half Size Up",
+      "ebayPurchaseLink": "https://www.ebay.ca/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313&_nkw=yeezy+500+high&_sacat=0",
+      "body": "Yeezy enlists a new variation of a popular design with the adidas Yeezy 500 Slate High, now available on StockX. This is the first high-top sneaker silhouette Yeezy has released since the 750. Similar to the 500 Stone release, Yeezy replaces mesh with neoprene to add a sleek look to this high-top model. This Yeezy 500 High is composed of a Slate neoprene and suede with reflective piping. A matching Adiprene midsole and gum rubber outsole completes the design. These sneakers released in December of 2019 and retailed for $200.\n-StockX",
+      "id": 11
+    },
+    {
+      "full": "Yeezy 700 V3",
+      "colorway": "Azael",
+      "title": "700 V3",
+      "image": "700v3_azael",
+      "retailPriceUSD": "200",
+      "sizing": "Half Size Up",
+      "ebayPurchaseLink": "https://www.ebay.ca/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313&_nkw=yeezy+700+v3&_sacat=0",
+      "body": "Yeezy introduces a new variation of the 700 with the Yeezy 700 V3 Azael, now available on StockX. The third incarnation of the Yeezy 700 is one of the most sophisticated designs we`ve seen from the ongoing collaborations, playing with shape, line, texture, and even expectations. The outer shell is reminiscent of a race car and an astronaut’s suit with a sole unit that feels progressive and substantial. This 700 V3 is composed of an azael upper composed of monofilament engineered mesh with RPU overlays for structure and durability. The RPU cage has glow-in-the-dark features, along with 3M reflective detailing on the toe. The EVA midsole and herringbone rubber outsole completes the design. These sneakers released in December of 2019 and retailed for $200.\n-StockX",
+      "id": 12
+    },
+    {
+      "full": "Yeezy Boost 700 MNVN",
+      "colorway": "Triple Black",
+      "title": "700 MNVN",
+      "image": "700mnvn_tripleblack",
+      "retailPriceUSD": "220",
+      "sizing": "Half Size Up",
+      "ebayPurchaseLink": "https://www.ebay.ca/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313&_nkw=yeezy+700+mnvn&_sacat=0",
+      "body": "Yeezy introduced a new variation of their 700 series with the adidas Yeezy Boost 700 MNVN Triple Black, now available on StockX. Although the silhouette is similar to previous models, this shoe differs by displaying \"700\" branding on the upper using compact materials. This Yeezy Boost 700 MNVN is comprised of a triple black nylon upper paired with reflective detailing. A solid black sole with Boost cushioning completes the design. These sneakers released in February of 2020 and retailed for $220.\n-StockX",
+      "id": 13
+    },
+    {
+      "full": "Yeezy QNTM",
+      "colorway": "Quantum",
+      "title": "QNTM",
+      "image": "qntm_quantum",
+      "retailPriceUSD": "250",
+      "sizing": "Half Size Up",
+      "ebayPurchaseLink": "https://www.ebay.ca/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313&_nkw=yeezy+qntm&_sacat=0",
+      "body": "The adidas Yzy QNTM was made available as a part of a shock release collaboration between the American rapper and German brand. The QNTM basketball sneaker features a knit upper with wavy cut-out strips that reveal a breathable mesh base underneath. The grey and white tones used on both layers are complemented by reflective accents, an Off-White suede toe cap and solid black hits at the collar, tongue and heel. The mid-top is supported by a Boost midsole and a herringbone-tread rubber outsole. The adidas Yzy QNTM was first released on the 16th of February 2020, and retailed at a price of $250.\n-StockX",
+      "id": 14
     },
     {
       "full": "Yeezy Foam RNNR",
@@ -53,7 +174,84 @@
       "sizing": "Full Size Up",
       "ebayPurchaseLink": "https://www.ebay.ca/sch/i.html?_from=R40&_trksid=p2380057.m570.l2632&_nkw=yeezy+foam+rnnr&_sacat=3034",
       "body": "Yeezy provides a futuristic approach to comfort wear with the adidas Yeezy Foam RNNR Ararat, now available on StockX. Also known as the Yeezy Foam Runner, the Foam RNNR is comprised of a single piece of unique Yeezy material that blends harvested algae with adidas EVA materials. Its aerodynamic design features a medley of holes and ridges that take influence from the Yeezy 700 V3. A white Ararat colorway covers the silhouette, staying true to Yeezys natural color palettes.\nThe Yeezy Foam Runner released in June of 2020 and retailed for $75 USD.\n-StockX",
-      "id": 4
+      "id": 15
+    },
+    {
+      "full": "Yeezy 450",
+      "colorway": "Cloud White",
+      "title": "450",
+      "image": "450_cloudwhite",
+      "retailPriceUSD": "200",
+      "sizing": "Half Size Up",
+      "ebayPurchaseLink": "https://www.ebay.ca/sch/i.html?_from=R40&_trksid=p2380057.m570.l2632&_nkw=yeezy+450&_sacat=3034",
+      "body": "In early 2020, images of the adidas Yeezy 450 began to circulate when Kanye was spotted outside of the Yeezy Season 8 fashion show during Paris Fashion Week. This otherworldly design captured the attention of Yeezy fans, mostly because it is unlike anything Yeezy has ever made. Then, one year later, Yeezy finally released its brand new 450 silhouette with the adidas Yeezy 450 Cloud White. The adidas Yeezy 450 Cloud White is one of Yeezy’s most unique designs yet. Its simplified two-piece construction appears complex due to its extreme, molded foam sole. The sole clasps the mesh upper, acting as an exoskeleton to provide structure. Similar to the Yeezy 700 V3, this release does not feature Boost or adiPRENE technology. Instead, Yeezy utilizes EVA foam to deliver comfort. The adidas Yeezy 450 Cloud White released in March of 2021 and retailed for $200.\n-StockX",
+      "id": 16
+    },
+    {
+      "full": "Yeezy Knit RNR",
+      "colorway": "Sulfur",
+      "title": "Knit RNR",
+      "image": "knitrnr_sulfur",
+      "retailPriceUSD": "200",
+      "sizing": "Half Size Up",
+      "ebayPurchaseLink": "https://www.ebay.ca/sch/i.html?_from=R40&_trksid=p2380057.m570.l2632&_nkw=yeezy+knit+rnnr&_sacat=3034",
+      "body": "The Yeezy Knit RNR Sulfur features a two-tone cream and Sulfur knit upper that hugs the foot in a sock-like way. On the collar, size information is printed in black to denote the size of each pair externally. A thin Sulfur herringbone outsole completes the design. The Yeezy Knit RNR Sulfur released in September of 2021 and retailed for $200.\n-StockX",
+      "id": 17
+    },
+    {
+      "full": "Yeezy NSLDT BT",
+      "colorway": "Khaki",
+      "title": "NSLDT BT",
+      "image": "nsltdbt_khaki",
+      "retailPriceUSD": "340",
+      "sizing": "Full Size Up",
+      "ebayPurchaseLink": "https://www.ebay.ca/sch/i.html?_from=R40&_trksid=p2380057.m570.l2632&_nkw=yeezy+nsltd+bt&_sacat=3034",
+      "body": "The adidas Yeezy NSLTD Boot Khaki focuses on retaining heat with its construction. Its heavily insulated Khaki upper is reminiscent of a puffer jacket with its heavy padding and enigmatic shape. Also, the design is completely laceless. A hidden velcro enclosure on the lateral side secures your feet without the hassle of lacing up. The adidas Yeezy NSLTD Boot Khaki released in November of 2021 and retailed for $340.\n-StockX",
+      "id": 18
+    },
+    {
+      "full": "Yeezy Knit RNR BT",
+      "colorway": "Sulfur",
+      "title": "Knit RNR BT",
+      "image": "knitrnrbt_sulfur",
+      "retailPriceUSD": "400",
+      "sizing": "Full Size Up",
+      "ebayPurchaseLink": "https://www.ebay.ca/sch/i.html?_from=R40&_trksid=p2380057.m570.l2632&_nkw=yeezy+knit+rnr+bt&_sacat=3034",
+      "body": "With a cast-like construction, the adidas Yeezy Knit RNR Boot Sulfur features a woven upper with a two-way velcro enclosure. The base of the Knit RNR Boot mimics the original Knit RNR Sulfur, a low-top slip-on Yeezy that debuted earlier in the fall of 2021. From there, a sculptural sole with accentuated treads completes the design. The adidas Yeezy Knit RNR Boot Sulfur released in November of 2021 and retailed for $400.\n-StockX",
+      "id": 19
+    },
+    {
+      "full": "Yeezy Boost 350 V2 CMPCT",
+      "colorway": "Slate Blue",
+      "title": "350 V2 CMPCT",
+      "image": "350v2cmpct_slateblue",
+      "retailPriceUSD": "220",
+      "sizing": "True to Size",
+      "ebayPurchaseLink": "https://www.ebay.ca/sch/i.html?_from=R40&_trksid=p2380057.m570.l2632&_nkw=yeezy+350+v2+cmpct&_sacat=3034",
+      "body": "The adidas Yeezy Boost 350 V2 CMPCT Slate Blue builds off of the original 350 V2 design by refreshing the knit upper. The CMPCT Primeknit upper arrives with a higher ankle collar than its predecessor, and ditches the traditional side stripe for a sock-like, woven pattern. Also, the lacing system is more voluminous than previous models, with lace loops extending out of the upper to hold its rope laces. The adidas Yeezy Boost 350 V2 CMPCT Slate Blue released in December of 2021 and retailed for $220.\n-StockX",
+      "id": 20
+    },
+    {
+      "full": "Yeezy BSKTBL Knit",
+      "colorway": "Slate Blue",
+      "title": "BSKTBL Knit",
+      "image": "bsktblknit_slateblue",
+      "retailPriceUSD": "300",
+      "sizing": "Half Size Up",
+      "ebayPurchaseLink": "https://www.ebay.ca/sch/i.html?_from=R40&_trksid=p2380057.m570.l2632&_nkw=yeezy+bsktbl+knit&_sacat=3034",
+      "body": "The adidas Yeezy BSKTBL Slate Blue borrows design features from the Yeezy QNTM and 350 V2 CMPCT designs to create a responsive court shoe. The sole of the Yeezy BSKTBL is reminiscent of the QNTM, while its sock-like Primeknit upper arrives as a high-top form of the 350 V2 CMPCT. The adidas Yeezy BSKTBL Slate Blue released in December of 2021 and retailed for $300.\n-StockX",
+      "id": 21
+    },
+    {
+      "full": "Yeezy Boost 700 MNVN Laceless",
+      "colorway": "Phosphor",
+      "title": "700 MNVN Laceless",
+      "image": "700mnvnlaceless_phosphor",
+      "retailPriceUSD": "220",
+      "sizing": "Half Size Up",
+      "ebayPurchaseLink": "https://www.ebay.ca/sch/i.html?_from=R40&_trksid=p2380057.m570.l2632&_nkw=yeezy+700+mnvn+laceless&_sacat=3034",
+      "body": "While the adidas Yeezy 700 MNVN Laceless Phosphor does have the same bright yellow nylon upper and reflective motocross-inspired 700 graphics as the original Phosphor release, there are two key differences. First of all, this design is laceless as stated in the name. Its slip-on entry is perfect for those who love the convenience of a Foam RNNR but want a little more protection. Secondly, its Boost midsole is white instead of black, altering the overall look but still delivering the same, premium cushioning. The adidas Yeezy 700 MNVN Laceless Phosphor released in June of 2022 and retailed for $220.\n-StockX",
+      "id": 22
     }
   ],
   "reviews": [
@@ -61,9 +259,9 @@
       "like": true,
       "dislike": false,
       "anon": false,
-      "firstName":"Thulam",
-      "lastName":"Tran",
-      "userID":1,
+      "firstName": "Thulam",
+      "lastName": "Tran",
+      "userID": 1,
       "review": "I love it :).",
       "models": {
         "full": "Yeezy Boost 350 V1",
@@ -74,109 +272,27 @@
         "sizing": "Half Size Up",
         "ebayPurchaseLink": "https://www.ebay.ca/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313&_nkw=yeezy+350+v1&_sacat=0",
         "body": "After Kanye West broke it off with Nike, he took his incredible sneaker designs to adidas. Shortly after, the Yeezy 350 Boost V1 launched. West wanted to create a shoe that could be used both in sports and in social settings.\nTo accomplish this, he created a silhouette that was unlike anything else. It took the low-top fashion industry by storm. Its initial release was in Turtle Dove.\n-StockX",
-        "id": 0
+        "id": 1
       },
       "id": 1
-    },
-    {
-      "like": false,
-      "dislike": true,
-      "anon": false,
-      "firstName":"Thulam",
-      "lastName":"Tran",
-      "userID":1,
-      "review": "I hate it :(.",
-      "models": {
-        "full": "Yeezy Foam RNNR",
-        "colorway": "Ararat",
-        "title": "Foam RNNR",
-        "image": "foamrnnr_ararat",
-        "retailPriceUSD": "75",
-        "sizing": "Full Size Up",
-        "ebayPurchaseLink": "https://www.ebay.ca/sch/i.html?_from=R40&_trksid=p2380057.m570.l2632&_nkw=yeezy+foam+rnnr&_sacat=3034",
-        "body": "Yeezy provides a futuristic approach to comfort wear with the adidas Yeezy Foam RNNR Ararat, now available on StockX. Also known as the Yeezy Foam Runner, the Foam RNNR is comprised of a single piece of unique Yeezy material that blends harvested algae with adidas EVA materials. Its aerodynamic design features a medley of holes and ridges that take influence from the Yeezy 700 V3. A white Ararat colorway covers the silhouette, staying true to Yeezys natural color palettes.\nThe Yeezy Foam Runner released in June of 2020 and retailed for $75 USD.\n-StockX",
-        "id": 4
-      },
-      "id": 2
-    },
-    {
-      "like": false,
-      "dislike": true,
-      "anon": false,
-      "firstName":"Thulam",
-      "lastName":"Tran2",
-      "userID":2,
-      "review": "pain",
-      "models": {
-        "full": "Yeezy Slide",
-        "colorway": "Bone",
-        "title": "Slide",
-        "image": "slide_bone",
-        "retailPriceUSD": "55",
-        "sizing": "Full Size Up",
-        "ebayPurchaseLink": "https://www.ebay.ca/sch/i.html?_from=R40&_trksid=p2380057.m570.l2632&_nkw=yeezy+slide&_sacat=3034",
-        "body": "The Yeezy Slide Bone features a triple-Bone EVA foam upper with the stark white color of Bone covering the entirety of the silhouette in one monochromatic hue that goes from the single, wide sandal strap down to the unique sole of the shoe. From there, the deep footbed uses the same plush foam EVA for comfort, and the outsole features a toothy construction that is intended to make the sandals rugged enough for different weather conditions, with the look finishing up using a small adidas logo on the heel to complete the design.\nThe Yeezy Slide Bone released in December of 2019 and retailed for $55.\n-StockX",
-        "id": 3
-      },
-      "id": 3
     }
   ],
   "users": [
     {
       "firstName": "Thulam",
       "lastName": "Tran",
-      "email": "1@email.com",
-      "password": "123",
-      "passwordConfirm": "123",
+      "email": "admin@yeezydb.com",
+      "password": "admin123",
+      "passwordConfirm": "admin123",
       "id": 1
     },
     {
-      "firstName": "Thulam",
-      "lastName": "Tran2",
-      "email": "2@email.com",
-      "password": "123",
-      "passwordConfirm": "123",
+      "firstName": "Test",
+      "lastName": "User",
+      "email": "test@email.com",
+      "password": "12345678",
+      "passwordConfirm": "12345678",
       "id": 2
-    },
-    {
-      "firstName": "Thulam",
-      "lastName": "Tran3",
-      "email": "3@email.com",
-      "password": "123",
-      "passwordConfirm": "123",
-      "id": 3
-    },
-    {
-      "firstName": "Thulam",
-      "lastName": "Tran4",
-      "email": "4@email.com",
-      "password": "123",
-      "passwordConfirm": "123",
-      "id": 4
-    },
-    {
-      "firstName": "Thulam",
-      "lastName": "Tran5",
-      "email": "5@email.com",
-      "password": "123",
-      "passwordConfirm": "123",
-      "id": 5
-    },
-    {
-      "firstName": "Thulam",
-      "lastName": "Tran6",
-      "email": "6@email.com",
-      "password": "123",
-      "passwordConfirm": "123",
-      "id": 6
-    },
-    {
-      "firstName": "Thulam",
-      "lastName": "Tran7",
-      "email": "7@email.com",
-      "password": "123",
-      "passwordConfirm": "123",
-      "id": 7
     }
   ]
 }
