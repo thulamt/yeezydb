@@ -6,7 +6,7 @@ import{useState} from 'react';
 import { HandThumbsUp,HandThumbsDown, ZoomIn} from 'react-bootstrap-icons';
 import "bootstrap/dist/css/bootstrap.min.css";
 import useFetch from './useFetch';
-import {useParams, useHistory} from "react-router-dom";
+import {useParams, useHistory, Link} from "react-router-dom";
 
 export default function ModelProfile({firstName, lastName, userID, login}) {
   const {id} =useParams();
@@ -90,6 +90,18 @@ export default function ModelProfile({firstName, lastName, userID, login}) {
               </div>
             </div>
           </div>
+        </div>
+        <div className="row pt-3">
+              <div className="col">
+              <Link centered to={`/models/${models.id-1}`} className="text-decoration-none">
+                  <button type="button" className="btn btn-primary" href="#prev">Previous</button>
+              </Link>
+              </div>
+              <div className="col">
+              <Link centered to={`/models/${models.id+1}`} className="text-decoration-none">
+                  <button type="button" className="btn btn-primary" href="#next">Next</button>
+              </Link>
+              </div>
         </div>
       </Col>
       <Col>
