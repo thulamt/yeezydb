@@ -1,9 +1,9 @@
 import React from 'react';
 import Comment from './Comment';
 import RatingRatio from './RatingRatio';
-import { Row, Col, Container, Modal, Card} from 'react-bootstrap';
+import { Row, Col, Container, Modal, Card, ButtonGroup} from 'react-bootstrap';
 import{useState} from 'react';
-import { HandThumbsUp,HandThumbsDown, ZoomIn} from 'react-bootstrap-icons';
+import { HandThumbsUp,HandThumbsDown, ArrowLeftSquareFill, ArrowRightSquareFill, ZoomIn} from 'react-bootstrap-icons';
 import "bootstrap/dist/css/bootstrap.min.css";
 import useFetch from './useFetch';
 import {useParams, useHistory, Link} from "react-router-dom";
@@ -89,17 +89,17 @@ export default function ModelProfile({firstName, lastName, userID, login}) {
                   <img className="img-fluid" src={require("./assets/ebay.png")} style={{maxWidth:"30%"}} alt="ebay" /></a>
               </div>
             </div>
-            <div className="row pt-3">
-              <div className="col">
-              <Link centered to={`/models/${models.id-1}`} className="text-decoration-none">
-                  <button type="button" className="btn btn-primary" href="#prev">Previous</button>
-              </Link>
-              </div>
-              <div className="col">
-              <Link centered to={`/models/${models.id+1}`} className="text-decoration-none">
-                  <button type="button" className="btn btn-primary" href="#next">Next</button>
-              </Link>
-              </div>
+            <div className="row pt-3 text-center" >
+            <div class="col">
+              <ButtonGroup>
+                  <Link to={`/models/${models.id-1}`} className="text-decoration-none">
+                      <button type="button" className="btn btn-primary" href="#prev"><ArrowLeftSquareFill></ArrowLeftSquareFill></button>
+                  </Link>
+                  <Link to={`/models/${models.id+1}`} className="text-decoration-none">
+                      <button type="button" className="btn btn-primary" href="#next"><ArrowRightSquareFill></ArrowRightSquareFill></button>
+                  </Link>
+              </ButtonGroup>
+            </div>
             </div>
           </div>
         </div>
