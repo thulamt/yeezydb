@@ -1,7 +1,7 @@
 import {useState, React} from 'react';
 import{Route, Switch, Link, useHistory} from 'react-router-dom';
 import useFetch from './useFetch';
-import { Person, PersonFill } from 'react-bootstrap-icons';
+import { Person, PersonFill, Github } from 'react-bootstrap-icons';
 import { Image, Navbar, Nav, Container, Modal, Button} from 'react-bootstrap';
 
 import Home from './Home'
@@ -185,6 +185,7 @@ function App() {
           {login && <>
           <div className="nav-link"><Link id="RouterNavLink" style={{color: "blue", textDecoration: "none", display: "flex", justifyContent: "center"}} to={`/ratings/${userID}`}>My Ratings</Link></div>
           <div className="nav-link" onClick={handleShowSignOut} style={{color: "blue", textDecoration: "none", display: "flex", justifyContent: "center"}}><PersonFill size={25}/></div></>}
+          <Link className="nav-link" to={{ pathname: "https://github.com/thulamt?tab=repositories" }} target="_blank" style={{color: "blue", textDecoration: "none", display: "flex", justifyContent: "center"}}><Github size={25}/></Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
@@ -353,7 +354,7 @@ function App() {
         <NotFound/>
       </Route>
     </Switch>
-    </div>
+  </div>
   );
 }
 
