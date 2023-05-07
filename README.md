@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# [YeezyDB](https://yeezy-db.netlify.app/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Yeezy DB is a database that provides easy and accessible information on all Yeezy shoe models, including initial release dates and prices. Users can review Yeezy models and view all reviews made by others and themselves. Additionally, each page also includes Ebay links for purchasing in the aftermarket. 
 
-## Available Scripts
+This project aims to target sneakerheads, Kanye West fans, and fashion enthusiasts who want to keep up with the latest trends in Yeezy shoes. Yeezy DB makes it easy to browse and search for specific models, compare prices, and get reviews and ratings from other users.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+-Browse and search for Yeezy shoe models
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-Access information on initial release dates and prices
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-View Ebay links to purchase
 
-### `npm test`
+-Rate and favorite specific models and/or colorways
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-Leave reviews and view reviews made by other users
 
-### `npm run build`
+## Important Links
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-[YeezyDB Website](https://yeezy-db.netlify.app/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-[Project Report](https://github.com/thulamt/yeezydb/blob/master/Thulam%20Tran%20SEG3125%20Project%202%20COMPLETE.pdf)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-[JSON Database](https://github.com/thulamt/yeezydb-json) Note that the Glitch server used sleeps during periods of inactivity, will take at most a minute to startup and use.
 
-### `npm run eject`
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To use Yeezy DB, simply navigate to the website and start browsing! You can search for specific models and view details on each shoe. To leave a review or rate a model, you can check to write an anonymous review or create an account. Full instructions given in the [Project Report](https://github.com/thulamt/yeezydb/blob/master/Thulam%20Tran%20SEG3125%20Project%202%20COMPLETE.pdf)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Disclaimer: The recent statements made by Kanye West do not reflect those of the creator of Yeezy DB. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+I do not endorse or support any views expressed by Kanye West that may be offensive or harmful to others. Yeezy DB is a passion project created by sneakerheads and fashion enthusiasts.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Credits
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Yeezy DB was created by [Thulam Tran](https://github.com/thulamt?tab=repositories) as a passion project for sneakerheads and Kanye West fans alike. Full credits listed in the [Project Report](https://github.com/thulamt/yeezydb/blob/master/Thulam%20Tran%20SEG3125%20Project%202%20COMPLETE.pdf).
